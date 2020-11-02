@@ -1,5 +1,5 @@
 package com.etc.apirest.ApiETC.repository;
 
-public class VooRepository {
+public class PedidosRepository {
 
 }
