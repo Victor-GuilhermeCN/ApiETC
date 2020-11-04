@@ -1,5 +1,6 @@
 package com.etc.apirest.ApiETC.models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +12,8 @@ import javax.persistence.Table;
 public class Usuario {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="id_usuario")
 	private  String idUsuario;
 	
 	private String nome;
